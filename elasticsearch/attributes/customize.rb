@@ -1,11 +1,11 @@
 
 
-normal.elasticsearch['version'] = '1.1.0'
+normal.elasticsearch['version'] = '2.3.4'
 normal.elasticsearch['cluster']['name'] = 'elasticsearch-aws'
 # normal.elasticsearch['node']['master'] = true
 # normal.elasticsearch['node']['data'] = true
 normal.elasticsearch['logging']['action.discovery.ec2'] = 'INFO'
-normal.elasticsearch['plugins']['elasticsearch/elasticsearch-cloud-aws']['version'] = '2.1.0'
+#normal.elasticsearch['plugins']['elasticsearch/elasticsearch-cloud-aws']['version'] = '2.1.0'
 normal.elasticsearch['cloud']['aws']['region'] = 'us-east-1'
 normal.elasticsearch['index']['number_of_shards'] = 3
 normal.elasticsearch['index']['number_of_replicas'] = 1
@@ -37,8 +37,9 @@ if node[:opsworks][:instance][:layers].include? node['elasticsearch']['cluster']
     normal.elasticsearch['nginx']['allow_cluster_api'] = true
     normal.elasticsearch['nginx']['port'] = 80
     normal.elasticsearch['plugins']['karmi/elasticsearch-paramedic'] = {}
-    normal.elasticsearch['plugins']['lmenezes/elasticsearch-kopf']['version'] = '0.5.5'
+    normal.elasticsearch['plugins']['lmenezes/elasticsearch-kopf']['version'] = '2.1.1'
     normal.elasticsearch['plugins']['royrusso/elasticsearch-HQ'] = {}
+    normal.elasticsearch['plugins']['cloud-aws']['version'] = '2.3.2'
 
 end
 
