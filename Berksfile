@@ -19,7 +19,7 @@ cookbook 'chef_handler', '= 1.1.6'
 
 cookbook 'nginx', git: 'https://github.com/miketheman/nginx.git', tag: 'v2.6.2'
 cookbook 'ohai', git: 'https://github.com/opscode-cookbooks/ohai.git', tag: '1.1.4'
-cookbook 'elasticsearch', git: 'https://github.com/stuart-warren/cookbook-elasticsearch', branch: 'customize_attributes'
+cookbook 'elasticsearch', git: 'https://github.com/Chintanvpatel/cookbook-elasticsearch', branch: 'customize_attributes'
 cookbook 'monit', git: 'https://github.com/apsoto/monit', ref: 'ac3793f37d4f7ca7e4174cfa9a64f8b6948fff44'
 cookbook 'python', git: 'https://github.com/poise/python', ref: '8b3fd0f187c7673e64b02bfc43c2c29d243359cc'
 cookbook 'logstash', git: 'https://github.com/stuart-warren/chef-logstash.git', branch: 'customize_attributes'
