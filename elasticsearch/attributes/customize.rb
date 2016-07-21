@@ -39,7 +39,6 @@ if node[:opsworks][:instance][:layers].include? node['elasticsearch']['cluster']
     normal.elasticsearch['plugins']['karmi/elasticsearch-paramedic'] = {}
     normal.elasticsearch['plugins']['lmenezes/elasticsearch-kopf']['version'] = '2.1.1'
     normal.elasticsearch['plugins']['royrusso/elasticsearch-HQ'] = {}
-    normal.elasticsearch['plugins']['elasticsearch/elasticsearch-cloud-aws'] = {}
 
 end
 
