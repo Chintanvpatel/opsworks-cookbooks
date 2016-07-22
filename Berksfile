@@ -25,7 +25,7 @@ cookbook 'python', git: 'https://github.com/poise/python', ref: '8b3fd0f187c7673
 cookbook 'logstash', git: 'https://github.com/stuart-warren/chef-logstash.git', branch: 'customize_attributes'
 cookbook 'aws-tag', git: 'https://github.com/stuart-warren/chef-aws-tag.git', ref: '7984fb7e06ad9c9f14750e99c57b55a051cfba0a'
 cookbook 'git', git: 'https://github.com/jssjr/git.git', ref: 'b1bca76aaf3a3a2131744f17f6e5087e22fa3c40'
-cookbook 'kibana', git: 'https://github.com/lusis/chef-kibana.git', tag: '1.2.1'
+cookbook 'kibana', git: 'https://github.com/lusis/chef-kibana.git', tag: '3.0.2'
 cookbook 'logrotate', git: 'https://github.com/stevendanna/logrotate.git', ref: 'd65f8b8f82d3fa03043acee9f07114693d426e27'
 cookbook 'pleaserun', git: 'https://github.com/paulczar/chef-pleaserun.git', ref: 'db3a7426832f3a946ff1df35779e7285db74939a'
 
