@@ -36,8 +36,6 @@ if node[:opsworks][:instance][:layers].include? node['elasticsearch']['cluster']
     # httpnode
     normal.elasticsearch['node']['master'] = true
     normal.elasticsearch['node']['data'] = false
-    normal.elasticsearch['nginx']['allow_cluster_api'] = true
-    normal.elasticsearch['nginx']['port'] = 80
     normal.elasticsearch['plugins']['karmi/elasticsearch-paramedic'] = {}
     normal.elasticsearch['plugins']['lmenezes/elasticsearch-kopf']['version'] = '2.1.1'
     normal.elasticsearch['plugins']['royrusso/elasticsearch-HQ'] = {}
