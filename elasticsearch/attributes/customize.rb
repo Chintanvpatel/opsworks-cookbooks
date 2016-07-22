@@ -27,7 +27,7 @@ normal.elasticsearch['custom_config']['action.disable_shutdown'] = true
 
 ## Custom attributes
 normal.elasticsearch['cluster']['datalayer'] = 'elasticsearch-data'
-normal.elasticsearch['cluster']['httplayer'] = 'elasticsearch-frontend'
+normal.elasticsearch['cluster']['httplayer'] = 'elasticsearch-master'
 
 
 # For nodes within this layer
