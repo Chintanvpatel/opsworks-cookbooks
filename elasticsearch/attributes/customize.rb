@@ -2,6 +2,7 @@
 
 normal.elasticsearch['version'] = '2.3.4'
 normal.elasticsearch['cluster']['name'] = 'elasticsearch-aws'
+normal.elasticsearch['network']['host'] = '0.0.0.0'
 # normal.elasticsearch['node']['master'] = true
 # normal.elasticsearch['node']['data'] = true
 normal.elasticsearch['logging']['action.discovery.ec2'] = 'INFO'
