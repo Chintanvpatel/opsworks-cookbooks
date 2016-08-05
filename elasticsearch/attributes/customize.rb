@@ -20,8 +20,7 @@ normal.elasticsearch['discovery']['ec2']['tag']['opsworks:stack'] = "Elasticsear
 normal.elasticsearch['limits']['nofile'] = 655350
 normal.elasticsearch['custom_config']['cluster.routing.allocation.awareness.attributes'] = 'aws_availability_zone'
 normal.elasticsearch['custom_config']['index.refresh_interval'] = '3s'
-normal.elasticsearch['custom_config']['indices.fielddata.cache.size'] = '15%'
-normal.elasticsearch['custom_config']['indices.fielddata.cache.expire'] = '1h'
+normal.elasticsearch['custom_config']['indices.fielddata.cache.size'] = '20%'
 normal.elasticsearch['custom_config']['indices.cache.filter.size'] = '15%'
 normal.elasticsearch['custom_config']['action.disable_shutdown'] = true
 
